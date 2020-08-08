@@ -16,11 +16,12 @@ App.js
 ```jsx
 import React from 'react'
 import {LoadingProvider} from 'react-hook-loading'
+import YourLoading from './YourLoading'
 import Hello from './Hello'
 
 export default function App(){
   return (
-    <LoadingProvider>
+    <LoadingProvider loading={<YourLoading />}>
       <Hello/>
     </LoadingProvider>
   )
