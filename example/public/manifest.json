@@ -1,6 +1,6 @@
 {
-  "short_name": "react-useloading",
-  "name": "react-useloading",
+  "short_name": "react-hook-loading",
+  "name": "react-hook-loading",
   "icons": [
     {
       "src": "favicon.ico",

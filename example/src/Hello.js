@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import {useLoading} from 'react-useloading'
+import {useLoading} from 'react-hook-loading'
 
 export default () => {
   const [, setLoading] = useLoading()
