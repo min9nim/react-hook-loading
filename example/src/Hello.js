@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import {useLoading} from 'react-hook-loading'
 
 export default () => {
-  const [, setLoading] = useLoading()
+  const [loading, setLoading] = useLoading()
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
@@ -10,5 +10,5 @@ export default () => {
     }, 2000)
   }, [])
 
-  return <div>hello world!!</div>
+  return <div>{loading ? 'Loading..' : 'hello world!!'}</div>
 }

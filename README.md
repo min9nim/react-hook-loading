@@ -15,7 +15,7 @@ npm install --save react-hook-loading
 App.js
 ```jsx
 import React from 'react'
-import LoadingProvider from 'react-hook-loading'
+import {LoadingProvider} from 'react-hook-loading'
 import Hello from './Hello'
 
 export default function App(){
@@ -33,15 +33,15 @@ import React, {useEffect} from 'react'
 import {useLoading} from 'react-hook-loading'
 
 export default () => {
-  const [, setLoading] = useLoading()
+  const [loading, setLoading] = useLoading()
   useEffect(() => {
-    setLoading(true)
+    setLoading(true)    // show modal loading
     setTimeout(() => {
-      setLoading(false)
+      setLoading(false) // hide modal loading
     }, 2000)
   }, [])
 
-  return <div>hello world!!</div>
+  return <div>hello world</div>
 }
 ```
 
