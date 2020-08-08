@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react'
+import Loading from './Loading'
 
 const dec = num => {
   if (num === 0) {
@@ -20,7 +21,7 @@ export default function LoadingProvider(props) {
   return (
     <LoadingCtx.Provider value={value}>
       {props.children}
-      {value.loading && (props.loading || <span>Loading..</span>)}
+      {value.loading && (props.loading || <Loading />)}
     </LoadingCtx.Provider>
   )
 }
