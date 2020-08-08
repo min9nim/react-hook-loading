@@ -11,7 +11,7 @@ const inc = num => ++num
 
 const LoadingCtx = React.createContext()
 
-export default function LoadingProvider(props) {
+export function LoadingProvider(props) {
   const [count, setCount] = useState(0)
   const value = {
     loading: Boolean(count),

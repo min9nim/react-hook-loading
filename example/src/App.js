@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LoadingProvider from 'react-hook-loading'
+import {LoadingProvider} from 'react-hook-loading'
 import 'react-hook-loading/dist/index.css'
 import Hello from './Hello'
 
