@@ -14,12 +14,12 @@ const loadingStyle = {
   position: 'fixed',
   top: '50%',
   left: '50%',
-  'background-color': '#fff',
+  backgroundColor: '#fff',
   padding: '2px',
-  '-webkit-transform': 'translate(-50%, -50%)',
-  '-ms-transform': 'translate(-50%, -50%)',
-  '-moz-transform': 'translate(-50%, -50%)',
-  '-o-transform': 'translate(-50%, -50%)',
+  WebkitTransform: 'translate(-50%, -50%)',
+  msTransform: 'translate(-50%, -50%)',
+  MozTransform: 'translate(-50%, -50%)',
+  OTransform: 'translate(-50%, -50%)',
   transform: 'translate(-50%, -50%)',
 }
 
