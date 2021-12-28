@@ -30,3 +30,5 @@ export const useLoading = () => {
   const { loading, setLoading } = useContext(LoadingCtx)
   return [loading, setLoading]
 }
+
+export const DefaultLoading = Loading
