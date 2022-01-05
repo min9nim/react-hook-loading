@@ -15,6 +15,7 @@ const loadingStyle = {
   top: '50%',
   left: '50%',
   backgroundColor: '#fff',
+  color: '#222222',
   padding: '2px',
   WebkitTransform: 'translate(-50%, -50%)',
   msTransform: 'translate(-50%, -50%)',
