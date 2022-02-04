@@ -5,6 +5,7 @@
   "author": "min9nim",
   "license": "MIT",
   "repository": "min9nim/react-hook-loading",
+  "keywords": ["react", "hook", "loading"],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
